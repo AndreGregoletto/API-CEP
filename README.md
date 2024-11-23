@@ -44,10 +44,10 @@ A aplicação foi construída utilizando o **Laravel 11** e **PHP 8.3**, garanti
     ```
 
 6. **Acesse a API Via POST**:
-    `http://127.0.0.1:8000/api/cepSearch` para testar a consulta ao CEP. Com o cep via body.
+    `http://127.0.0.1:8000/api/cepSearch` para testar a consulta do CEP. Com o cep via body.
 
 7. **Acesse a Aplicação**:
-   `http://127.0.0.1:8000/cep` para testar a consulta ao CEP.
+   `http://127.0.0.1:8000/cep` para testar a consulta do CEP.
 
 ## 🛠️ Tecnologias Utilizadas
 - **Laravel 11**: Framework PHP para construção de APIs modernas e escaláveis.
