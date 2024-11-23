@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CepController;
 
-Route::get('teste', function(){
-    return true;
+Route::group(['prefix' => 'api', 'middleware' => 'api'], function () {
+    Route::post('cepSearch', [CepController::class, 'search'])->name('cepSearch');
 });

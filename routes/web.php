@@ -9,4 +9,4 @@ Route::get('/', function () {
 
 Route::get('cep', [CepController::class, 'index'])->name('cepIndex');
 
-Route::post('cepSearch', [CepController::class, 'search'])->name('cepSearch');
+require __DIR__ . '/api.php';

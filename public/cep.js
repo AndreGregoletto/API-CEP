@@ -1,5 +1,5 @@
 const baseUrl   = window.location.origin
-
+console.log(baseUrl)
 $('#cep').mask('00000-000')
 
 $('#btnCep').click(function () {
@@ -17,7 +17,7 @@ $('#btnCep').click(function () {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
         , type:'POST'
-        , url:`${baseUrl}/cepSearch`
+        , url:`${baseUrl}/api/cepSearch`
         , async:true
         , dataType:'json'
         , data : {
