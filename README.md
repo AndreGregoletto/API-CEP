@@ -1,7 +1,7 @@
 # API de Consulta de CEP
 
 ## 💡 Descrição do Projeto
-Foi solicitado o desenvolvimento de uma **API em PHP** que consome dados de CEP de uma API externa e retorna essas informações para o frontend.
+Foi desenvolvido uma **API em PHP** que consome dados de CEP de uma API externa e retorna essas informações para o frontend.
 
 A aplicação foi construída utilizando o **Laravel 11** e **PHP 8.3**, garantindo uma implementação moderna e eficiente.
 
