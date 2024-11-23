@@ -19,7 +19,7 @@ A aplicação foi construída utilizando o **Laravel 11** e **PHP 8.3**, garanti
 
 1. **Clone o repositório**:
     ```bash
-    git clone https://github.com/AndreGregoletto/TradeUp.git
+    git clone https://github.com/AndreGregoletto/API-CEP.git
     ```
 
 2. **Instale as dependências**:
