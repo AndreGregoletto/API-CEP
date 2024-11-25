@@ -1,5 +1,5 @@
 const baseUrl   = window.location.origin
-console.log(baseUrl)
+
 $('#cep').mask('00000-000')
 
 $('#btnCep').click(function () {
